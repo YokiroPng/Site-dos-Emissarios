@@ -1,0 +1,166 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Mystical cosmic background for the hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1628317887518-927cdc197cdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnYWxheHklMjBuZWJ1bGF8ZW58MHx8fHwxNzYyMzY0MzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "galaxy nebula"
+    },
+    {
+      "id": "emissarios-logo",
+      "description": "Main Emissários logo",
+      "imageUrl": "https://i.postimg.cc/9fhKp7HG/Emissario-Logo-V2.png",
+      "imageHint": "emissarios logo"
+    },
+    {
+      "id": "emissarios-frame",
+      "description": "Decorative frame for the emissarios logo",
+      "imageUrl": "https://i.postimg.cc/7LWFvc8P/M-1-Photoroom.png",
+      "imageHint": "wings frame"
+    },
+    {
+      "id": "manzilly-profile",
+      "description": "Profile picture for Manzilly",
+      "imageUrl": "https://i.postimg.cc/qRh16fsP/manzi-1-Copia.png",
+      "imageHint": "anime man"
+    },
+    {
+      "id": "manzilly-status-icon",
+      "description": "Personal status icon for Manzilly",
+      "imageUrl": "https://i.postimg.cc/ZqTkNqnF/manzi-s2-nome.png",
+      "imageHint": "golden logo"
+    },
+    {
+      "id": "yokiro-profile",
+      "description": "Profile picture for Yokiro",
+      "imageUrl": "https://i.postimg.cc/brBRgmqB/1766807520813.jpg",
+      "imageHint": "anime boy brown hair"
+    },
+    {
+      "id": "yokiro-status-icon",
+      "description": "Personal status icon for Yokiro",
+      "imageUrl": "https://i.postimg.cc/xdBtV074/yokiro-s2-nome.png",
+      "imageHint": "brown logo"
+    },
+    {
+      "id": "roxdale-profile",
+      "description": "Profile picture for Roxdale",
+      "imageUrl": "https://i.postimg.cc/ZnjRKkB9/20251228-122321-0000.png",
+      "imageHint": "anime man red hair"
+    },
+    {
+      "id": "roxdale-status-icon",
+      "description": "Personal status icon for Roxdale",
+      "imageUrl": "https://i.postimg.cc/Tw6gK6wJ/rox-s2-nome.png",
+      "imageHint": "red logo"
+    },
+    {
+      "id": "hiroguighost-profile",
+      "description": "Profile picture for Hiroguighost",
+      "imageUrl": "https://i.postimg.cc/CxWQjQnL/20251228-223156-0000.png",
+      "imageHint": "anime boy white hair"
+    },
+    {
+      "id": "hiroguighost-status-icon",
+      "description": "Personal status icon for Hiroguighost",
+      "imageUrl": "https://i.postimg.cc/8PGX40Hb/hiro-s2-nome.png",
+      "imageHint": "white logo"
+    },
+    {
+      "id": "ksano-profile",
+      "description": "Profile picture for Ksano",
+      "imageUrl": "https://i.postimg.cc/QtWcZjX5/Design-sem-nome-20251228-224331-0000.png",
+      "imageHint": "anime boy purple hair"
+    },
+    {
+      "id": "ksano-status-icon",
+      "description": "Personal status icon for Ksano",
+      "imageUrl": "https://i.postimg.cc/nrB5r81d/ksano-s2-nome.png",
+      "imageHint": "purple logo"
+    },
+    {
+      "id": "megara-profile",
+      "description": "Profile picture for Megara LePaon",
+      "imageUrl": "https://i.postimg.cc/YCQ59Hgz/image.png",
+      "imageHint": "anime girl green hair"
+    },
+    {
+      "id": "megara-status-icon",
+      "description": "Personal status icon for Megara LePaon",
+      "imageUrl": "https://i.postimg.cc/FR1m16hQ/meg-s2-nome.png",
+      "imageHint": "green logo"
+    },
+    {
+      "id": "emissary-placeholder",
+      "description": "A placeholder for a new emissary",
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhbmltZSUyMGNoYXJhY3RlcnxlbnwwfHx8fDE3NjIzODI2MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anime character"
+    },
+    {
+      "id": "frakyel-profile",
+      "description": "Profile picture for Frakyel",
+      "imageUrl": "https://i.postimg.cc/jjwJPN4Z/iconevtuber.png",
+      "imageHint": "anime boy blue hair"
+    },
+    {
+      "id": "daud-profile",
+      "description": "Profile picture for Daud",
+      "imageUrl": "https://i.postimg.cc/9MvM2N6v/SPOILER-doismelhor.png",
+      "imageHint": "anime boy"
+    },
+    {
+      "id": "frakyel-status-icon",
+      "description": "Personal status icon for Frakyel",
+      "imageUrl": "https://i.postimg.cc/Rh7P9hsz/fra1-s2-nome.png",
+      "imageHint": "blue logo"
+    },
+    {
+      "id": "daud-status-icon",
+      "description": "Personal status icon for Daud",
+      "imageUrl": "https://i.postimg.cc/Bvdbfn1W/daud-s2-nome.png",
+      "imageHint": "pink logo"
+    },
+    {
+      "id": "kora-profile",
+      "description": "Profile picture for Kora",
+      "imageUrl": "https://i.postimg.cc/nhVMxWR1/kora-icon.png",
+      "imageHint": "anime girl blue hair"
+    },
+    {
+      "id": "kora-status-icon",
+      "description": "Personal status icon for Kora",
+      "imageUrl": "https://i.postimg.cc/JzJyPXF4/kora-s2-nome.png",
+      "imageHint": "blue logo"
+    },
+    {
+      "id": "joy-profile",
+      "description": "Profile picture for Joy",
+      "imageUrl": "https://i.postimg.cc/fL7JqYpq/joy-s2.png",
+      "imageHint": "anime girl pink hair"
+    },
+    {
+      "id": "littleliwes-profile",
+      "description": "Profile picture for LittleLiwes",
+      "imageUrl": "https://i.postimg.cc/dtgwdLSK/lewis-s2.png",
+      "imageHint": "anime boy orange hair"
+    },
+    {
+      "id": "coming-soon",
+      "description": "Coming soon image for the 4th generation of emissaries",
+      "imageUrl": "https://i.postimg.cc/rwXhXkPD/Em-breve.png",
+      "imageHint": "coming soon"
+    },
+    {
+      "id": "karmina-profile",
+      "description": "Profile picture for Karmina",
+      "imageUrl": "https://i.postimg.cc/Tw69Fq7t/karmina.png",
+      "imageHint": "anime girl red hair"
+    },
+    {
+      "id": "adrean-profile",
+      "description": "Profile picture for Adrean",
+      "imageUrl": "https://i.postimg.cc/44K6P0xm/adrean-s2.png",
+      "imageHint": "anime boy"
+    }
+  ]
+}
