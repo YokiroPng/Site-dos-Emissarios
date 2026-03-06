@@ -8,6 +8,7 @@ import { Twitter, Youtube, Twitch } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
+import { scheduleByDay } from "@/lib/data";
 
 type EmissaryProfileProps = {
   emissary: Emissary;
@@ -38,6 +39,16 @@ const iconMap = {
 
 const TRUNCATE_LENGTH = 200;
 
+const weekOrder = [
+    "Segunda-feira",
+    "Terça-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sábado",
+    "Domingo",
+];
+
 export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfileProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const image = PlaceHolderImages.find((p) => p.id === emissary.imageId);
@@ -54,6 +65,42 @@ export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfil
   const descriptionToShow = isLongDescription && !isExpanded
     ? `${emissary.description.substring(0, TRUNCATE_LENGTH)}...`
     : emissary.description;
+
+    const scheduleByTime: { [time: string]: string[] } = {};
+
+    Object.entries(scheduleByDay).forEach(([day, schedules]) => {
+        const dailySchedules = schedules.filter(s => s.vtuber === emissary.name);
+        dailySchedules.forEach(schedule => {
+            if (!scheduleByTime[schedule.time]) {
+                scheduleByTime[schedule.time] = [];
+            }
+            scheduleByTime[schedule.time].push(day);
+        });
+    });
+  
+    const formattedSchedules = Object.entries(scheduleByTime).map(([time, days]) => {
+        if (days.length === 0) return null;
+  
+        const dayIndices = days.map(day => weekOrder.indexOf(day)).sort((a, b) => a - b);
+  
+        let ranges: string[] = [];
+        if (dayIndices.length > 0) {
+          let rangeStart = 0;
+          for (let i = 0; i < dayIndices.length; i++) {
+              if (i === dayIndices.length - 1 || dayIndices[i+1] !== dayIndices[i] + 1) {
+                  if (rangeStart === i) {
+                      ranges.push(weekOrder[dayIndices[i]]);
+                  } else {
+                       const start = weekOrder[dayIndices[rangeStart]].split('-')[0];
+                       const end = weekOrder[dayIndices[i]];
+                       ranges.push(`${start} a ${end}`);
+                  }
+                  rangeStart = i + 1;
+              }
+          }
+        }
+        return `${ranges.join(', ')}: ${time}`;
+    }).filter(Boolean) as string[];
 
 
   return (
@@ -95,7 +142,7 @@ export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfil
         {emissary.title && (
             <h4 className="text-2xl font-bold font-headline mt-1" style={{ color: emissary.color }}>{emissary.title}</h4>
         )}
-        <p className="mt-4 text-lg text-foreground/80 whitespace-pre-line">{descriptionToShow}</p>
+        <p className="mt-4 text-lg text-white whitespace-pre-line">{descriptionToShow}</p>
         {isLongDescription && (
             <Button
               variant="link"
@@ -105,6 +152,21 @@ export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfil
               {isExpanded ? "Ver menos" : "Ver mais"}
             </Button>
           )}
+        
+        {(formattedSchedules.length > 0 || emissary.schedule_note) && (
+          <div className="mt-4">
+            <h5 className="text-xl font-bold" style={{ color: emissary.color }}>Horários:</h5>
+            <div className="mt-2 space-y-1">
+                {formattedSchedules.map((schedule, index) => (
+                    <p key={index} className="text-lg text-white">
+                        {schedule}
+                    </p>
+                ))}
+                {emissary.schedule_note && <p className="text-lg text-white">{emissary.schedule_note}</p>}
+            </div>
+          </div>
+        )}
+
         <div className={cn("mt-6 flex items-center gap-4 justify-center md:justify-start", isReversed && "md:justify-end")}>
           {emissary.socials.map((social) => {
             const Icon = iconMap[social.platform as keyof typeof iconMap];

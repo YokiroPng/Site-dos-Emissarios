@@ -138,7 +138,7 @@ export default function Home() {
               Projetos
             </h2>
             <div className="max-w-3xl mx-auto">
-              <p className="text-lg md:text-xl text-foreground/80 mb-8">
+              <p className="text-lg md:text-xl text-foreground mb-8">
                 Além das lives, também criamos projetos interativos para a comunidade. Confira o que estamos aprontando!
               </p>
               <div className="flex flex-col items-center gap-4">

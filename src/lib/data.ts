@@ -13,6 +13,7 @@ export type Emissary = {
   statusIconId?: string;
   socials: Social[];
   color: string;
+  schedule_note?: string;
 };
 
 export type ScheduleEntry = {
@@ -121,6 +122,7 @@ Mais tarde, Daud descobriria, por meio de eventos catastróficos, que na verdade
       { platform: 'tiktok', url: 'https://www.tiktok.com/@roxdale1' },
     ],
     color: '#800000', // Vermelho vinho
+    schedule_note: 'Sem Horário Fixo',
   },
 ];
 
@@ -153,6 +155,7 @@ export const secondGeneration: Emissary[] = [
       { platform: 'tiktok', url: 'https://www.tiktok.com/@hiroguighost?is_from_webapp=1&sender_device=pc' },
     ],
     color: '#FFFFFF', // Branco
+    schedule_note: 'Sem Horário Fixo',
   },
   {
     id: 'kora',
@@ -213,6 +216,7 @@ export const thirdGeneration: Emissary[] = [
       { platform: 'tiktok', url: 'https://www.tiktok.com/@yokiro.pngtuber?is_from_webapp=1&sender_device=pc' },
     ],
     color: '#6F4E37', // Marrom Café
+    schedule_note: 'Sem Horário Fixo',
   },
   {
     id: 'megara',
@@ -235,64 +239,45 @@ export const emissaries: Emissary[] = [...firstGeneration, ...secondGeneration, 
 
 export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
   "Segunda-feira": [
-    { id: 41, vtuber: 'Yokiro', time: '05:00 / 19:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
-    { id: 29, vtuber: 'Kora', time: '13:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
-    { id: 22, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 1, vtuber: 'Roxdale', time: '18:00', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
-    { id: 37, vtuber: 'Hiroguighost', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/hiroguighost' },
+    { id: 22, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
+    { id: 29, vtuber: 'Kora', time: '15:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
     { id: 32, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 7, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 13, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
   "Terça-feira": [
-    { id: 42, vtuber: 'Yokiro', time: '05:00 / 19:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
-    { id: 23, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 2, vtuber: 'Roxdale', time: '18:00', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
+    { id: 23, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
+    { id: 48, vtuber: 'Kora', time: '15:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
     { id: 33, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 8, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 14, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
   "Quarta-feira": [
-    { id: 43, vtuber: 'Yokiro', time: '05:00 / 19:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
-    { id: 30, vtuber: 'Kora', time: '13:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
-    { id: 24, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 3, vtuber: 'Roxdale', time: '18:00', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
-    { id: 38, vtuber: 'Hiroguighost', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/hiroguighost' },
+    { id: 24, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 34, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 9, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 15, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
   "Quinta-feira": [
-    { id: 44, vtuber: 'Yokiro', time: '05:00 / 19:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
-    { id: 25, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 4, vtuber: 'Roxdale', time: '18:00', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
+    { id: 25, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 18, vtuber: 'Manzilly', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/manzillyvt' },
     { id: 35, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 10, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 16, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
   "Sexta-feira": [
-    { id: 45, vtuber: 'Yokiro', time: '05:00 / 19:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
-    { id: 31, vtuber: 'Kora', time: '13:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
-    { id: 26, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 5, vtuber: 'Roxdale', time: '18:00', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
+    { id: 26, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 19, vtuber: 'Manzilly', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/manzillyvt' },
-    { id: 39, vtuber: 'Hiroguighost', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/hiroguighost' },
     { id: 36, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 11, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 17, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
   "Sábado": [
-    { id: 6, vtuber: 'Roxdale', time: '12h (ou 15h)', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
-    { id: 27, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 46, vtuber: 'Yokiro', time: '15:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
+    { id: 27, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 20, vtuber: 'Manzilly', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/manzillyvt' },
-    { id: 40, vtuber: 'Hiroguighost', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/hiroguighost' },
   ],
   "Domingo": [
-    { id: 12, vtuber: 'Roxdale', time: '12h (ou 15h)', platform: 'Twitch', link: 'https://www.twitch.tv/roxdale' },
-    { id: 28, vtuber: 'Megara LePaon', time: '14:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
-    { id: 47, vtuber: 'Yokiro', time: '15:00', platform: 'Twitch', link: 'https://www.twitch.tv/yokiro_png' },
+    { id: 28, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 21, vtuber: 'Manzilly', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/manzillyvt' },
   ]
 };
