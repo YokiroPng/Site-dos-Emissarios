@@ -86,11 +86,10 @@ Mais tarde, Daud descobriria, por meio de eventos catastróficos, que na verdade
     title: 'Emissário Dragão Cromado',
     description: 'Em breve',
     imageId: 'karmina-profile',
+    statusIconId: 'karmina-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'twitch', url: 'https://www.twitch.tv/karminavt' },
+      { platform: 'tiktok', url: 'https://www.tiktok.com/@karminavt' },
     ],
     color: '#B22222', // Vermelho metálico (usando Firebrick)
   },
@@ -100,6 +99,7 @@ Mais tarde, Daud descobriria, por meio de eventos catastróficos, que na verdade
     title: 'Emissário Celestial',
     description: 'Em breve',
     imageId: 'adrean-profile',
+    statusIconId: 'adrean-status-icon',
     socials: [
       { platform: 'twitter', url: 'https://twitter.com' },
       { platform: 'youtube', url: 'https://youtube.com' },
@@ -160,7 +160,7 @@ export const secondGeneration: Emissary[] = [
   {
     id: 'kora',
     name: 'Kora',
-    title: 'Emissário Dragão de Lotus',
+    title: 'Emissário Elemental',
     description: 'Lian Ming é o filho bastardo do Lorde Dragão Loong com uma dançarina. Após a morte da mãe, armada pela esposa de Loong, Madame Yu, Loong adotou Lian Ming como filho, mas não lhe contou a verdade sobre a sua identidade e sobre ser o seu pai biológico, sendo um segredo que o mesmo guardaria a 7 chaves dentro de si. Lian Ming cresceu no palácio, sendo esnobado pelo seu meio-irmão mais novo e pela sua madrasta, tendo apenas a companhia de dois discípulos do seu pai, chamados Fei e Feng. Estes dois gémeos juraram proteger o rapaz e, desde então, tornaram-se os seus melhores amigos. Lian Ming recebeu a tutela de outro discípulo do seu pai, chamado Yanluo. Este, futuramente, seria acusado de matar o Lorde Loong e Lian Ming ao protegê-lo, sendo banido do Reino Acima das Nuvens e condenado a fugir dos imperiais do continente, à procura de Yanluo e da profecia que o seu pai lhe confiou antes de morrer. Mudando o seu nome original para Kora, e começando sua jornada a partir daí com Fei e Feng ao seu lado...',
     imageId: 'kora-profile',
     statusIconId: 'kora-status-icon',
@@ -177,25 +177,24 @@ export const secondGeneration: Emissary[] = [
     title: 'Emissária Multiversal',
     description: 'Em breve',
     imageId: 'joy-profile',
+    statusIconId: 'joy-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'twitch', url: 'https://www.twitch.tv/joyjoyvt' },
+      { platform: 'tiktok', url: 'https://www.tiktok.com/@joyjoyvt' },
+      { platform: 'youtube', url: 'https://www.youtube.com/@joydubsofc' },
     ],
     color: '#FFB6C1', // Rosa Esmalte (usando LightPink)
   },
   {
-    id: 'littleliwes',
-    name: 'LittleLiwes',
+    id: 'lewis',
+    name: 'Lewis',
     title: 'Emissário da Trilha Selvagem',
-    description: 'Em breve',
+    description: 'Lewis é um panda vermelho, que ama aventuras e fazer novas amizades, seu sonho é guiar todos para uma comunidade onde todos possam ser amigos, ama jogar jogos Indie e de puzzle, venha ser meu amigo também, eu irei guiar vocês nessa aventura que é a amizade.',
     imageId: 'littleliwes-profile',
+    statusIconId: 'lewis-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'twitter', url: 'https://x.com/LittleLewisVT?s=20' },
+      { platform: 'twitch', url: 'https://www.twitch.tv/littlelewisvt' },
     ],
     color: '#FFA500', // Laranja
   },
@@ -283,4 +282,5 @@ export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
 };
 
 
+    
     

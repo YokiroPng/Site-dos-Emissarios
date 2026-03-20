@@ -21,20 +21,20 @@
     {
       "id": "manzilly-profile",
       "description": "Profile picture for Manzilly",
-      "imageUrl": "https://i.postimg.cc/qRh16fsP/manzi-1-Copia.png",
+      "imageUrl": "https://i.postimg.cc/x1dcFc1j/10.png",
       "imageHint": "anime man"
     },
     {
       "id": "manzilly-status-icon",
       "description": "Personal status icon for Manzilly",
-      "imageUrl": "https://i.postimg.cc/ZqTkNqnF/manzi-s2-nome.png",
+      "imageUrl": "https://i.postimg.cc/6QPK5QKn/manzi-s2-nome.png",
       "imageHint": "golden logo"
     },
     {
       "id": "yokiro-profile",
       "description": "Profile picture for Yokiro",
-      "imageUrl": "https://i.postimg.cc/brBRgmqB/1766807520813.jpg",
-      "imageHint": "anime boy brown hair"
+      "imageUrl": "https://i.postimg.cc/g0pXHdBD/13.png",
+      "imageHint": "anime boy white hair"
     },
     {
       "id": "yokiro-status-icon",
@@ -45,19 +45,19 @@
     {
       "id": "roxdale-profile",
       "description": "Profile picture for Roxdale",
-      "imageUrl": "https://i.postimg.cc/ZnjRKkB9/20251228-122321-0000.png",
+      "imageUrl": "https://i.postimg.cc/0N8Z4GJ8/12.png",
       "imageHint": "anime man red hair"
     },
     {
       "id": "roxdale-status-icon",
       "description": "Personal status icon for Roxdale",
-      "imageUrl": "https://i.postimg.cc/Tw6gK6wJ/rox-s2-nome.png",
+      "imageUrl": "https://i.postimg.cc/P59TzM37/rox-s2-nome.png",
       "imageHint": "red logo"
     },
     {
       "id": "hiroguighost-profile",
       "description": "Profile picture for Hiroguighost",
-      "imageUrl": "https://i.postimg.cc/CxWQjQnL/20251228-223156-0000.png",
+      "imageUrl": "https://i.postimg.cc/zv2GmY78/5.png",
       "imageHint": "anime boy white hair"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "ksano-profile",
       "description": "Profile picture for Ksano",
-      "imageUrl": "https://i.postimg.cc/QtWcZjX5/Design-sem-nome-20251228-224331-0000.png",
+      "imageUrl": "https://i.postimg.cc/Wb4d5X82/9.png",
       "imageHint": "anime boy purple hair"
     },
     {
@@ -81,8 +81,8 @@
     {
       "id": "megara-profile",
       "description": "Profile picture for Megara LePaon",
-      "imageUrl": "https://i.postimg.cc/YCQ59Hgz/image.png",
-      "imageHint": "anime girl green hair"
+      "imageUrl": "https://i.postimg.cc/Dwk87nFf/11.png",
+      "imageHint": "anime girl white hair"
     },
     {
       "id": "megara-status-icon",
@@ -99,31 +99,31 @@
     {
       "id": "frakyel-profile",
       "description": "Profile picture for Frakyel",
-      "imageUrl": "https://i.postimg.cc/jjwJPN4Z/iconevtuber.png",
+      "imageUrl": "https://i.postimg.cc/wjSgcvtX/4.png",
       "imageHint": "anime boy blue hair"
     },
     {
       "id": "daud-profile",
       "description": "Profile picture for Daud",
-      "imageUrl": "https://i.postimg.cc/9MvM2N6v/SPOILER-doismelhor.png",
+      "imageUrl": "https://i.postimg.cc/Z5yhRSf5/3.png",
       "imageHint": "anime boy"
     },
     {
       "id": "frakyel-status-icon",
       "description": "Personal status icon for Frakyel",
-      "imageUrl": "https://i.postimg.cc/Rh7P9hsz/fra1-s2-nome.png",
+      "imageUrl": "https://i.postimg.cc/XvGhLkMN/fra1-s2-nome.png",
       "imageHint": "blue logo"
     },
     {
       "id": "daud-status-icon",
       "description": "Personal status icon for Daud",
-      "imageUrl": "https://i.postimg.cc/Bvdbfn1W/daud-s2-nome.png",
+      "imageUrl": "https://i.postimg.cc/rmTJ41qp/daud-s2-nome.png",
       "imageHint": "pink logo"
     },
     {
       "id": "kora-profile",
       "description": "Profile picture for Kora",
-      "imageUrl": "https://i.postimg.cc/nhVMxWR1/kora-icon.png",
+      "imageUrl": "https://i.postimg.cc/ydvV9CwP/8.png",
       "imageHint": "anime girl blue hair"
     },
     {
@@ -135,13 +135,19 @@
     {
       "id": "joy-profile",
       "description": "Profile picture for Joy",
-      "imageUrl": "https://i.postimg.cc/fL7JqYpq/joy-s2.png",
+      "imageUrl": "https://i.postimg.cc/nL1ZbtVS/6.png",
       "imageHint": "anime girl pink hair"
+    },
+    {
+      "id": "joy-status-icon",
+      "description": "Personal status icon for Joy",
+      "imageUrl": "https://i.postimg.cc/sgssnXsK/joy-s2-nome.png",
+      "imageHint": "pink logo"
     },
     {
       "id": "littleliwes-profile",
       "description": "Profile picture for LittleLiwes",
-      "imageUrl": "https://i.postimg.cc/dtgwdLSK/lewis-s2.png",
+      "imageUrl": "https://i.postimg.cc/HxwC4DR9/Design-sem-nome-(3).png",
       "imageHint": "anime boy orange hair"
     },
     {
@@ -153,14 +159,32 @@
     {
       "id": "karmina-profile",
       "description": "Profile picture for Karmina",
-      "imageUrl": "https://i.postimg.cc/Tw69Fq7t/karmina.png",
+      "imageUrl": "https://i.postimg.cc/d0KgVTkx/7.png",
       "imageHint": "anime girl red hair"
     },
     {
       "id": "adrean-profile",
       "description": "Profile picture for Adrean",
-      "imageUrl": "https://i.postimg.cc/44K6P0xm/adrean-s2.png",
+      "imageUrl": "https://i.postimg.cc/zBxQ7ttf/2.png",
       "imageHint": "anime boy"
+    },
+    {
+      "id": "karmina-status-icon",
+      "description": "Personal status icon for Karmina",
+      "imageUrl": "https://i.postimg.cc/W453mjv3/karmina-s2-nome.png",
+      "imageHint": "red logo"
+    },
+    {
+      "id": "adrean-status-icon",
+      "description": "Personal status icon for Adrean",
+      "imageUrl": "https://i.postimg.cc/43YnXdqf/adrean-s2-nome.png",
+      "imageHint": "green logo"
+    },
+    {
+      "id": "lewis-status-icon",
+      "description": "Personal status icon for Lewis",
+      "imageUrl": "https://i.postimg.cc/MZ0QXnPM/lewis-s2-nome.png",
+      "imageHint": "orange logo"
     }
   ]
 }
