@@ -83,8 +83,8 @@ Mais tarde, Daud descobriria, por meio de eventos catastróficos, que na verdade
   {
     id: 'karmina',
     name: 'Karmina',
-    title: 'Emissário Dragão Cromado',
-    description: 'Em breve',
+    title: 'Emissária Tecnológica',
+    description: 'Sophia era uma mulher que não tinha perspectiva de vida quando acontecimentos muito marcantes ocorreram em sua infância. Viu que o mundo perecia, por ideologia, por sistemas... por outros seres humanos. Por motivos pessoais e dando uma continuação ao legado de Johnny Silverhand, decidiu que seria ao fim não apenas das corporações, mas de tudo que gera desigualdade entre as pessoas. A solução não está no diálogo, está em balas, golpes e explosões, e no final, sobraria aquilo que Johnny imaginou como um conceito de paz: Campos verdes, sem poluição, sem tristeza, sem roubo de terras... Que a utopia surja com muita dor e suor, pois só assim para que um novo mundo floresça! Apesar dessa filosofia, Sophia tem um desejo muito forte pro cromos não por cumprir aquilo que prometeu a si mesma, mas apenas por desejo de poder, afastando-se ainda mais de sua humanidade.',
     imageId: 'karmina-profile',
     statusIconId: 'karmina-status-icon',
     socials: [
@@ -97,7 +97,7 @@ Mais tarde, Daud descobriria, por meio de eventos catastróficos, que na verdade
     id: 'adrean',
     name: 'Adrean',
     title: 'Emissário Celestial',
-    description: 'Em breve',
+    description: 'Os primeiros anjos ficaram com cada conceito que constitui o universo, no meu caso, fiquei com a realidade, mas ao descer ao mundo humano, eu perdi toda a minha memória e ao longo dos anos fui ganhando mais conhecimento sobre o que eu era e aperfeiçoando.\nPoderes: Definição a realidade, percepção a realidade, transformação, criação, manipulação a realidade, influência, adaptação, abstração, predição, ilusão, imortalidade...',
     imageId: 'adrean-profile',
     statusIconId: 'adrean-status-icon',
     socials: [
@@ -175,7 +175,7 @@ export const secondGeneration: Emissary[] = [
     id: 'joy',
     name: 'Joy',
     title: 'Emissária Multiversal',
-    description: 'Em breve',
+    description: 'Joy possui uma pedra mística em sua testa, sendo a única tendo a mesma. Ela não sabia o que era aquilo pois desde pequena nunca tinha ocorrido nada, até ela sentir uma explosão de sentimentos ao perder uma pessoa importante fazendo um portal se abrir jogando ela de universo em universo. Em cada universo existe outra versão dela, inclusive uma versão má que tenta matar as outras Joy. Em cada universo ela pode ter uma forma diferente, como no mundo humano virando um gato e etc.',
     imageId: 'joy-profile',
     statusIconId: 'joy-status-icon',
     socials: [
@@ -232,9 +232,57 @@ export const thirdGeneration: Emissary[] = [
     ],
     color: '#05b277',
   },
+  {
+    id: 'aizen-nozumi',
+    name: 'Aizen Nozomi',
+    title: 'Emissário da Esperança',
+    description: 'Aizen Nozomi é Filho das Entidades da Positividade e da Negatividade, nascido para cumprir o objetivo de Encher o Mundo de Esperança, porém seu Irmão Gêmeo Yozora Zetsubou tem o plano de condenar o mundo no completo desespero. Para impedir isso aizen decide espalhar esperança pelo mundo atras das redes sociais e laços de amizade para conseguir deter os planos do seu irmão.',
+    imageId: 'aizen-nozumi-profile',
+    statusIconId: 'aizen-nozumi-status-icon',
+    socials: [
+      { platform: 'twitter', url: 'https://twitter.com' },
+      { platform: 'youtube', url: 'https://youtube.com' },
+      { platform: 'twitch', url: 'https://twitch.tv' },
+      { platform: 'tiktok', url: 'https://tiktok.com' },
+    ],
+    color: '#8B9BAB',
+  },
 ];
 
-export const emissaries: Emissary[] = [...firstGeneration, ...secondGeneration, ...thirdGeneration];
+export const fourthGeneration: Emissary[] = [
+  {
+    id: 'yilman',
+    name: 'Yilman Lennus',
+    title: 'Emissário Arcano',
+    description: 'Yilman Lennus, era um elfo sem talento para magia, encontra um anel misterioso em uma caverna esquecida e passa a ter visões da destruição de sua cidade capital. Ignorado pelos anciãos por ser descredibilizado, ele retorna ao local e toma o anel para si, na qual desperta uma entidade sombria que lhe oferece um pacto. Ao retornar, encontra sua cidade em chamas e, tomado pelo desespero, aceita o poder da entidade para se redimir. Dessa forma conquista a habilidade de manipular a mana devido aos sacrifícios feitos mesmo que de forma involuntária',
+    imageId: 'yilman-profile',
+    statusIconId: 'yilman-status-icon',
+    socials: [
+      { platform: 'twitter', url: 'https://twitter.com' },
+      { platform: 'youtube', url: 'https://youtube.com' },
+      { platform: 'twitch', url: 'https://twitch.tv' },
+      { platform: 'tiktok', url: 'https://tiktok.com' },
+    ],
+    color: '#ACAA49',
+  },
+  {
+    id: 'professor',
+    name: 'Lucídius',
+    title: 'Emissário',
+    description: 'Os primeiros anjos ficaram com cada conceito que constitui o universo, no meu caso, fiquei com a realidade, mas ao descer ao mundo humano, eu perdi toda a minha memória e ao longo dos anos fui ganhando mais conhecimento sobre o que eu era e aperfeiçoando',
+    imageId: 'professor-profile',
+    statusIconId: 'professor-status-icon',
+    socials: [
+      { platform: 'twitter', url: 'https://twitter.com' },
+      { platform: 'youtube', url: 'https://youtube.com' },
+      { platform: 'twitch', url: 'https://twitch.tv' },
+      { platform: 'tiktok', url: 'https://tiktok.com' },
+    ],
+    color: '#394934',
+  },
+];
+
+export const emissaries: Emissary[] = [...firstGeneration, ...secondGeneration, ...thirdGeneration, ...fourthGeneration];
 
 export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
   "Segunda-feira": [

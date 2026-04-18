@@ -55,7 +55,7 @@ export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfil
   const statusIcon = emissary.statusIconId ? PlaceHolderImages.find((p) => p.id === emissary.statusIconId) : null;
 
   // Apply truncation logic for specific emissaries
-  const needsTruncation = ['daud', 'kora'].includes(emissary.id);
+  const needsTruncation = ['daud', 'kora', 'yilman', 'karmina'].includes(emissary.id);
   const isLongDescription = needsTruncation && emissary.description.length > TRUNCATE_LENGTH;
 
   const toggleExpanded = () => {
@@ -119,7 +119,10 @@ export function EmissaryProfile({ emissary, isReversed = false }: EmissaryProfil
               width={300}
               height={300}
               className="rounded-full shadow-2xl object-cover aspect-square"
-              style={{ boxShadow: `0 10px 15px -3px ${emissary.color}30, 0 4px 6px -4px ${emissary.color}30` }}
+              style={{
+                boxShadow: `0 10px 15px -3px ${emissary.color}30, 0 4px 6px -4px ${emissary.color}30`,
+                ...(emissary.id === 'aizen-nozumi' && { objectPosition: 'center' })
+              }}
               data-ai-hint={image.imageHint}
             />
             {statusIcon && (

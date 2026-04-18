@@ -3,7 +3,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { EmissaryProfile } from "@/components/emissary-profile";
 import { ScheduleTable } from "@/components/schedule-table";
-import { firstGeneration, secondGeneration, thirdGeneration } from "@/lib/data";
+import { firstGeneration, secondGeneration, thirdGeneration, fourthGeneration } from "@/lib/data";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -100,19 +100,12 @@ export default function Home() {
                 </div>
               </TabsContent>
               <TabsContent value="fourth">
-                <div className="flex items-center justify-center">
-                  {comingSoonImage && (
-                    <Image
-                      src={comingSoonImage.imageUrl}
-                      alt="Em Breve"
-                      width={800}
-                      height={450}
-                      quality={100}
-                      className="object-contain rounded-lg border-4 border-primary shadow-2xl"
-                      style={{ boxShadow: `0 10px 25px -5px hsl(var(--primary) / 0.4), 0 8px 10px -6px hsl(var(--primary) / 0.4)` }}
-                      data-ai-hint={comingSoonImage.imageHint}
-                    />
-                  )}
+                <div className="flex flex-col gap-20">
+                  {fourthGeneration.map((emissary, index) => (
+                     <FadeIn key={emissary.id}>
+                      <EmissaryProfile emissary={emissary} isReversed={index % 2 !== 0} />
+                    </FadeIn>
+                  ))}
                 </div>
               </TabsContent>
             </Tabs>

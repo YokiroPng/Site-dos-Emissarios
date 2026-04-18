@@ -185,6 +185,54 @@
       "description": "Personal status icon for Lewis",
       "imageUrl": "https://i.postimg.cc/MZ0QXnPM/lewis-s2-nome.png",
       "imageHint": "orange logo"
+    },
+    {
+      "id": "yilman-profile",
+      "description": "Profile picture for Yilman",
+      "imageUrl": "https://i.postimg.cc/htHz3xK5/marmore-branco-insta-post-12.png",
+      "imageHint": "white marble"
+    },
+    {
+      "id": "yilman-status-icon",
+      "description": "Personal status icon for Yilman",
+      "imageUrl": "https://i.postimg.cc/4xJh9tJJ/Yilman-s2-nome.png",
+      "imageHint": "yilman logo"
+    },
+    {
+      "id": "aizen-nozumi-profile",
+      "description": "Profile picture for Aizen Nozomi",
+      "imageUrl": "https://i.postimg.cc/W4NLVYpG/Design-sem-nome-(6).png",
+      "imageHint": "design"
+    },
+    {
+      "id": "aizen-nozumi-status-icon",
+      "description": "Personal status icon for Aizen Nozomi",
+      "imageUrl": "https://i.postimg.cc/K8Ywsk0C/aizen-s2-nome.png",
+      "imageHint": "aizen logo"
+    },
+    {
+      "id": "professor-profile",
+      "description": "Profile picture for Professor",
+      "imageUrl": "https://i.postimg.cc/zGR3WBTx/marmore-branco-insta-post-11.png",
+      "imageHint": "white marble"
+    },
+    {
+      "id": "professor-status-icon",
+      "description": "Personal status icon for Professor",
+      "imageUrl": "https://i.postimg.cc/brxsGYWy/lucidius-s2-nome.png",
+      "imageHint": "lucidius logo"
+    },
+    {
+      "id": "kai-profile",
+      "description": "Profile picture for Kai",
+      "imageUrl": "https://images.unsplash.com/photo-1618519764d0db1b37b75d9bfb25e1e6aabab8bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyMHx8YW5pbWUlMjBjaGFyYWN0ZXJ8ZW58MHx8fHwxNzYyMzgyNjE5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anime character pink"
+    },
+    {
+      "id": "kai-status-icon",
+      "description": "Personal status icon for Kai",
+      "imageUrl": "https://i.postimg.cc/Y2L8DjFm/placeholder-logo.png",
+      "imageHint": "pink logo"
     }
   ]
 }
