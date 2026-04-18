@@ -74,9 +74,9 @@ const iconMap = {
 const TRUNCATE_LENGTH = 200;
 
 const weekOrder = [
-    "Segunda-feira",
+    "Segunda",
     "Terça-feira",
-    "Quarta-feira",
+    "Quarta",
     "Quinta-feira",
     "Sexta-feira",
     "Sábado",

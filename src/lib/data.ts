@@ -270,7 +270,7 @@ export const fourthGeneration: Emissary[] = [
     id: 'professor',
     name: 'Lucídius',
     title: 'Emissário do Conhecimento',
-    description: 'Os primeiros anjos ficaram com cada conceito que constitui o universo, no meu caso, fiquei com a realidade, mas ao descer ao mundo humano, eu perdi toda a minha memória e ao longo dos anos fui ganhando mais conhecimento sobre o que eu era e aperfeiçoando',
+    description: 'Lucídius é um Anjo Malakin, dedicado a buscar e guardar os conhecimentos do universo numa biblioteca mágica. Ele está vagando entre os seres humanos desde a invenção da Escrita, em 4500 a.C., ajudando os humanos através da passagem do tempo. Além de ser atualmente um professor de História, Vtuber e Bibliotecário.',
     imageId: 'professor-profile',
     statusIconId: 'professor-status-icon',
     socials: [
@@ -287,10 +287,11 @@ export const fourthGeneration: Emissary[] = [
 export const emissaries: Emissary[] = [...firstGeneration, ...secondGeneration, ...thirdGeneration, ...fourthGeneration];
 
 export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
-  "Segunda-feira": [
+  "Segunda": [
     { id: 22, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 29, vtuber: 'Kora', time: '15:00', platform: 'Twitch', link: 'https://www.twitch.tv/koracrw_' },
     { id: 32, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
+    { id: 37, vtuber: 'Lucídius', time: '19:00 - 22:00', platform: 'Twitch', link: 'https://www.twitch.tv/lucidiusvt' },
     { id: 7, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 13, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
@@ -301,9 +302,10 @@ export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
     { id: 8, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 14, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
-  "Quarta-feira": [
+  "Quarta": [
     { id: 24, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 34, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
+    { id: 38, vtuber: 'Lucídius', time: '19:00 - 22:00', platform: 'Twitch', link: 'https://www.twitch.tv/lucidiusvt' },
     { id: 9, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 15, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
   ],
@@ -317,6 +319,7 @@ export const scheduleByDay: { [key: string]: ScheduleEntry[] } = {
   "Sexta-feira": [
     { id: 26, vtuber: 'Megara LePaon', time: '13:30', platform: 'Twitch', link: 'https://www.twitch.tv/meglepaon' },
     { id: 19, vtuber: 'Manzilly', time: '19:00', platform: 'Twitch', link: 'https://www.twitch.tv/manzillyvt' },
+    { id: 39, vtuber: 'Lucídius', time: '19:00 - 22:00', platform: 'Twitch', link: 'https://www.twitch.tv/lucidiusvt' },
     { id: 36, vtuber: 'Daud', time: '19:00 / 20:00', platform: 'Twitch', link: 'https://www.twitch.tv/ddaud96' },
     { id: 11, vtuber: 'Ksano', time: '20:00', platform: 'Twitch', link: 'https://www.twitch.tv/Ksanovt' },
     { id: 17, vtuber: 'Frakyel', time: '21:00 - 00:00', platform: 'Twitch', link: 'https://www.twitch.tv/frakyel/' },
