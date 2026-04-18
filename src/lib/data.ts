@@ -1,6 +1,6 @@
 
 export type Social = {
-  platform: 'twitter' | 'youtube' | 'twitch' | 'tiktok';
+  platform: 'twitter' | 'youtube' | 'twitch' | 'tiktok' | 'instagram' | 'bluesky';
   url: string;
 };
 
@@ -240,10 +240,11 @@ export const thirdGeneration: Emissary[] = [
     imageId: 'aizen-nozumi-profile',
     statusIconId: 'aizen-nozumi-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'twitch', url: 'https://www.twitch.tv/aizennozomi' },
+      { platform: 'youtube', url: 'https://www.youtube.com/@AizenNozomi' },
+      { platform: 'tiktok', url: 'https://www.tiktok.com/@aizennozomi' },
+      { platform: 'twitter', url: 'https://x.com/AizenNozomi' },
+      { platform: 'instagram', url: 'https://www.instagram.com/aizennozomi/' },
     ],
     color: '#8B9BAB',
   },
@@ -258,25 +259,26 @@ export const fourthGeneration: Emissary[] = [
     imageId: 'yilman-profile',
     statusIconId: 'yilman-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'twitch', url: 'https://www.twitch.tv/yilmanlennusvt' },
+      { platform: 'twitter', url: 'https://x.com/yilmanlennusvt' },
+      { platform: 'tiktok', url: 'https://www.tiktok.com/@yilmanlennus' },
+      { platform: 'instagram', url: 'https://www.instagram.com/yilmanlennusvt/' },
     ],
     color: '#ACAA49',
   },
   {
     id: 'professor',
     name: 'Lucídius',
-    title: 'Emissário',
+    title: 'Emissário do Conhecimento',
     description: 'Os primeiros anjos ficaram com cada conceito que constitui o universo, no meu caso, fiquei com a realidade, mas ao descer ao mundo humano, eu perdi toda a minha memória e ao longo dos anos fui ganhando mais conhecimento sobre o que eu era e aperfeiçoando',
     imageId: 'professor-profile',
     statusIconId: 'professor-status-icon',
     socials: [
-      { platform: 'twitter', url: 'https://twitter.com' },
-      { platform: 'youtube', url: 'https://youtube.com' },
-      { platform: 'twitch', url: 'https://twitch.tv' },
-      { platform: 'tiktok', url: 'https://tiktok.com' },
+      { platform: 'youtube', url: 'https://www.youtube.com/@LucidiusVT' },
+      { platform: 'twitter', url: 'https://x.com/Lucidius_VT' },
+      { platform: 'bluesky', url: 'https://bsky.app/profile/lucidiusvt.bsky.social' },
+      { platform: 'tiktok', url: 'https://www.tiktok.com/@prof_lucidius_vt' },
+      { platform: 'instagram', url: 'https://www.instagram.com/lucidius.vt/' },
     ],
     color: '#394934',
   },

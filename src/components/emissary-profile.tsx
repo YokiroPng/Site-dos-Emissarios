@@ -30,11 +30,45 @@ const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
     </svg>
   );
 
+const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+      <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+    </svg>
+  );
+
+const BlueskyIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      strokeWidth="2"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+    </svg>
+  );
+
 const iconMap = {
   twitter: Twitter,
   youtube: Youtube,
   twitch: Twitch,
   tiktok: TikTokIcon,
+  instagram: InstagramIcon,
+  bluesky: BlueskyIcon,
 };
 
 const TRUNCATE_LENGTH = 200;
